@@ -14,8 +14,11 @@ resize the image to the size you want
 ## label_generator.py
 read the original .mat file and find the label for each image and write in .txt file
 
+## convert.py
+convert a .ckpt file into a .pb file to build the graph
+
 ## load_pd.py
-read a .ckpt file and build the network and save it as a .pbfile
+add decoder before feed images for training image format to tensor)
 
 ## retrain_2016.py 
 the training process (I get this function from https://medium.com/towards-data-science/multi-label-image-classification-with-inception-net-cbb2ee538e30, the I add load_graph_from_local functionality so that you can load whatever model you want for the training
